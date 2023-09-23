@@ -10,7 +10,16 @@ import java.util.Scanner;
  *
  * @author Acer
  */
+class Node{
+int data;
+Node next;
 
+     Node(int m) {
+        
+         data = m;
+         next = null;
+     }
+}
 public class circular {
      Node head;
 
